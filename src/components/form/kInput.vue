@@ -17,7 +17,7 @@ export default {
     methods: {
         onInput(e) {
             this.$emit('input', e.target.value);
-        }
+        },
     },
 }
 </script>
